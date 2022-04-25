@@ -1,0 +1,27 @@
+.mainheading,#m1{
+    background-color: aqua;
+}
+.subheading,#s1{
+    color:red
+}
+h3{
+background-color: purple;
+}
+*{
+    background-color: bisque;
+}
+.bx{
+   /* border-style: dashed;
+    background-color: aqua;
+    border-color:brown ;
+    border-width: 5px;*/
+    border:dashed 5px  brown;
+    background-color: aqua;
+    padding:20px;
+    margin:10px;
+}
+img{
+    width:20%;
+    height:25%;
+    border-radius:50%;
+}

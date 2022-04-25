@@ -1,0 +1,22 @@
+.row{
+    background-color: aqua;
+    display: flex;
+    flex-direction: row;
+   /* justify-content: space-between;*/
+   width:100%
+}
+.column{
+    display: flex;
+    flex-basis:100%;
+    max-width: 33.33%;
+    flex-direction: column;
+}
+.c1{
+    background-color:crimson
+}
+.c2{
+background-color: burlywood;
+}
+.c3{
+background-color: purple;
+}
