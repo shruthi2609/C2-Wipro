@@ -1,7 +1,18 @@
-.btn-primary{
-    background-color: black;
+
+div{
+    height:30vh;
+    background-color: aqua;
 }
-.btn-primary:hover{
-    background-color:bisque;
-    color:black
+.c1{
+    background-color: bisque;
+}
+.c2{
+    background-color: cornflowerblue;
+}
+.c3{
+    background-color: cadetblue;
+}
+img{
+    width:100%;
+
 }
