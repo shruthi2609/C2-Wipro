@@ -83,7 +83,7 @@ const student=[{
 },
 ]
 const res4=student.find(
-    function(item){
+    (item)=>{
         return item.fname==="peter"
     }
 )
