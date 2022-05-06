@@ -69,11 +69,47 @@ console.log(sample("john",23))
 function displayUser(uname,role='emp',shift='day'){
     console.log(`${uname} ${role} - ${shift}`)
 }
-displayUser("john","night")*/
+displayUser("john","night")
 
 function sample(data){
     console.log(data)
 }
 sample(["one","two","three"])
+
+//callbacks
+
+const evaluateWorkingHours=(func)=>{
+const working=func("john","admin",5)
+console.log(`john : admin - ${working}`)
+}
+const callBackFun=(fname,role,logIntime)=>{
+    if(logIntime<9){
+        return "underworking"
+    }
+    else{
+        return "regular"
+    }
+}
+evaluateWorkingHours(callBackFun)
+
+//closures
+function basicDetails(){
+    let fname="john"
+    let reg=827398273
+    function contactDetails(mob){
+        let phone=mob
+        reg=12345
+        console.log(`${fname} ${reg} :contact no:${phone}`)
+    }
+    fname="johan"
+    console.dir(contactDetails)
+    return contactDetails
+    //console.dir(contactDetails)
+    //contactDetails()
+}
+//console.dir(basicDetails)
+const outsideLex=basicDetails()
+outsideLex(82772637263)*/
+
 
 
