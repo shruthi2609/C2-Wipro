@@ -1,0 +1,2 @@
+The Problem statement :-
+a. Create a promises to read the data from an array
