@@ -20,7 +20,7 @@ async function caller(){
         console.log("end")
     }
 }
-caller()*/
+caller()
 function findUser(){
     let user={fname:"joe",email:"joe@gmail.com"};
     return new Promise(
@@ -40,5 +40,20 @@ async function caller(){
         console.log("end")
     }
 }
-caller()
+caller()*/
+
+function sample(){
+    let id
+    return new Promise(
+        (resolve,reject)=>{
+        if(id){
+            resolve(id)
+        }
+        else{
+            reject(new Error("no id found"))
+        }
+        }
+    )
+}
+sample().then((res)=>console.log(res))
 

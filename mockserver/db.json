@@ -1,0 +1,42 @@
+{
+  "empDetails": [
+    {
+      "id": 1,
+      "fname": "Joe",
+      "email": "joe@gmail.com",
+      "role": "Admin"
+    },
+    {
+      "id": 2,
+      "fname": "Peter",
+      "email": "peter@gmail.com",
+      "role": "Trainee"
+    },
+    {
+      "id": 3,
+      "fname": "henry",
+      "email": "henry@gmail.com",
+      "role": "Trainee"
+    },
+    {
+      "id": 4,
+      "fname": "Jenny",
+      "email": "jenny@gmail.com",
+      "role": "Trainer"
+    },
+    {
+      "id": 5,
+      "fname": "Pete",
+      "email": "peter@gmail.com",
+      "role": "HR"
+    }
+  ],
+  "admindetails": [
+    {
+      "id": 1,
+      "fname": "Joe",
+      "email": "joe@gmail.com",
+      "role": "Admin"
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+create a folder for backend
+
+cd foldername
+
+npm install json-server
+
+npm init
+
+db.json
+
+package.json -> change in scripts
+
+ "start": "json-server -p 3001 -w db.json"
+
+
+to start the server:
+npm start
+
+
+postman
+
+create a workspace
+
+get 
+
+
+post - > send data throgh body->raw->json
+
+{
+
+
+}
+click send 

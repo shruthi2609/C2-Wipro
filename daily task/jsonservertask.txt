@@ -1,0 +1,8 @@
+The Problem statement :-
+a. Create a simple JSON file of contact information with the following details:-
+i. Contact name
+ii. Contact email
+iii. Contact phone number
+iv. Contact Birthday
+2. Run the file using JSON Server
+3. Check the endpoints using postman
