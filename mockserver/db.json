@@ -29,6 +29,30 @@
       "fname": "Pete",
       "email": "peter@gmail.com",
       "role": "HR"
+    },
+    {
+      "fname": "shr",
+      "email": "shr",
+      "role": "trainer",
+      "id": 6
+    },
+    {
+      "fname": "vig",
+      "email": "vig@gmail.com",
+      "role": "trainer",
+      "id": 7
+    },
+    {
+      "id": 10,
+      "fname": "suresh",
+      "email": "suresh@gmail.com",
+      "role": "HR"
+    },
+    {
+      "id": 11,
+      "fname": "kamala",
+      "email": "kamala@gmail.com",
+      "role": "Trainer"
     }
   ],
   "admindetails": [

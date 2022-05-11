@@ -1,0 +1,1 @@
+using XHR make request from JS client to the json-server for contact manager
