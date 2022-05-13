@@ -39,12 +39,23 @@ let studentInfo=[{
 ]
 console.log(studentInfo[1].fname)
 let b=+prompt("enter age")
-console.log(typeof b)*/
+console.log(typeof b)
 
 function sample(a,b=0){
     return a+b
 }
 console.log(sample(10,4))
+let arr=[10,20,30]
+let [a,b,c]=arr
+console.log(a)
+console.log(b)
+console.log(c)*/
+let fname="john"
+let msg=`hello
+javascript!
+${fname}
+`
+console.log(msg)
 
 
 

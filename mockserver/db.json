@@ -1,12 +1,6 @@
 {
   "empDetails": [
     {
-      "fname": "joe",
-      "email": "Joe@gmail.com",
-      "role": "Admin",
-      "id": 1
-    },
-    {
       "id": 2,
       "fname": "Peter",
       "email": "peter@gmail.com",
@@ -14,13 +8,13 @@
     },
     {
       "id": 3,
-      "fname": "henry",
+      "fname": "Henry Fin",
       "email": "henry@gmail.com",
       "role": "Trainee"
     },
     {
       "id": 4,
-      "fname": "Jenny",
+      "fname": "Jennifer",
       "email": "jenny@gmail.com",
       "role": "Trainer"
     },
@@ -31,7 +25,7 @@
       "role": "HR"
     },
     {
-      "fname": "shr",
+      "fname": "Shruthi Loganathan",
       "email": "shr",
       "role": "trainer",
       "id": 6
@@ -55,14 +49,8 @@
       "role": "Trainer"
     },
     {
-      "id": 13,
-      "fname": "xyz",
-      "email": "xyz@gmail.com",
-      "role": "admin"
-    },
-    {
       "id": 14,
-      "fname": "dummy",
+      "fname": "Shruthi",
       "email": "trainee@gmail.com",
       "role": "trainee"
     }
